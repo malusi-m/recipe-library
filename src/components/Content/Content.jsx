@@ -8,17 +8,17 @@ import uniqueCuisine from '../../assets/dolores-preciado-Vu_fjfasu-4-unsplash.jp
 import './Content.css'
 
 console.log(burger)
-function Content (){
+function Content() {
     return (
         <>
             <section className="content-section">
                 <div className="service-info">
                     <p className="what-we-offer">
-                       Thousands of recipes. Easy organization. Your personal cooking companion.
+                        Thousands of recipes. Easy organization. Your personal cooking companion.
                     </p>
                 </div>
                 <div className="image-container">
-                    
+
                     <div className="image-card">
                         <a href="/">
                             <img src={burger} className="round-content" alt="Burger" />
@@ -40,10 +40,10 @@ function Content (){
                             <p className="image-label">Creamy Pasta Dishes</p>
                         </a>
                     </div>
-                    
+
                     <div className="image-card">
                         <a href="/">
-                            <img src={burger} className="round-content" alt="Burger" />
+                            <img src={ramen} className="round-content" alt="Burger" />
                             <div className="overlay"></div>
                             <p className="image-label">Soul-Warming Ramen Bowls</p>
                         </a>
@@ -71,7 +71,7 @@ function Content (){
                     </div>
 
                 </div>
-                
+
             </section>
         </>
     )
